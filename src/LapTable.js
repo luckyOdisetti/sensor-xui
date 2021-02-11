@@ -3,7 +3,6 @@ import { LAPS_DATA as LAPS_MAP } from "./laps_data.js";
 
 const LapTable = ({onSelect}) => {
   const lapIndex = Object.keys(LAPS_MAP);
-  console.log(lapIndex);
   return (
     <div>
       <h3>Lap Table</h3>

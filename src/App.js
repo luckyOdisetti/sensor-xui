@@ -22,7 +22,7 @@ function App() {
             {lapIndex.map((timestamp, idx) => (
               <li onClick={() => onSelect(timestamp)} key={idx}>{`Lap ${
                 idx + 1
-              } :: ${new Date(Number(timestamp)).toDateString()}`}</li>
+              } ${new Date(Number(timestamp)).toDateString()}`}</li>
             ))}
           </ul>
         </div>
