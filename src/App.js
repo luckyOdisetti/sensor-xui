@@ -12,12 +12,7 @@ function App() {
     setLap(LAPS_MAP[timestamp]);
   };
   const lapIndex = Object.keys(LAPS_MAP);
-type Jobs: Array<{
-  jobId: number,
-  title: string,
-  locations: Array<object>,
-  departments: Array<object>
-}>
+
   return (
     <div className="grid">
       <div className="left">
